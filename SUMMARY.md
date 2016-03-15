@@ -6,5 +6,5 @@
 * [Statistics](statistics.md)
 * [Mathematics](mathematics.md)
 * [Classification and Prediction](classification_and_prediction.md)
-   * K nearest neighbor
+   * [K nearest neighbor](k_nearest_neighbor.md)
 
