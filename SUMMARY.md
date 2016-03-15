@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Data mining
+* Data mining
 * [Machine Learning](chapter1.md)
 
