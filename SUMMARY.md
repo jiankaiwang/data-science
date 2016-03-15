@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Machine Learning](chapter1.md)
-* Data mining
+* [Data mining](data_mining.md)
 * Statistics
 * Mathematics
 
