@@ -4,4 +4,5 @@
 * [Machine Learning](chapter1.md)
 * Data mining
 * Statistics
+* Mathematics
 
