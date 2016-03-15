@@ -5,5 +5,5 @@
 * [Data mining](data_mining.md)
 * [Statistics](statistics.md)
 * [Mathematics](mathematics.md)
-* Classification and Prediction
+* [Classification and Prediction](classification_and_prediction.md)
 
