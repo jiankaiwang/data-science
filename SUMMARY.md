@@ -3,6 +3,6 @@
 * [Introduction](README.md)
 * [Machine Learning](chapter1.md)
 * [Data mining](data_mining.md)
-* Statistics
+* [Statistics](statistics.md)
 * Mathematics
 
