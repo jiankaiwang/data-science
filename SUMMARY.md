@@ -4,5 +4,5 @@
 * [Machine Learning](chapter1.md)
 * [Data mining](data_mining.md)
 * [Statistics](statistics.md)
-* Mathematics
+* [Mathematics](mathematics.md)
 
