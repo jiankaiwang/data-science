@@ -15,6 +15,6 @@ a stronger learner at final. The following figure.2 [1] is an example of the abo
 
 [Figure.1] A simple example demonstrates decision trees. There is a variable with conditions to classify two dimension data, people who want to play and not to play ball games. 
 
-
+![](../images/rf_random_forest.png)
 
 [Figure.2] The basic concept implements random forest method. The blue point represents each observed data. Each gray curve, a weaker learner, is an approximation to one subset of total data. The red curve, a stronger learner, is much better and outstanding than the other gray curve. 
