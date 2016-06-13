@@ -31,5 +31,34 @@ independently from the previous trees. That is, each time decision tree construc
 a bootstrap sample of the dataset. After each data is selected once, a majority vote is used for 
 prediction. 
 
+![](../images/rf_Boosting-of-tree-construction.png)
+
+[Figure.3] Boosting of tree construction. Successive trees would get weighted to points which were incorrectly predicted. In the end prediction would be accomplished by taking a vote with weighted. 
+
+![](../images/rf_Bagging-of-tree-construction.png)
+
+[Figure.4] Bagging of tree construction. Successive trees would operate independently from the previous tree. In the end prediction would be accomplished by a simple majority vote. 
+
+There are many methods using random forest concept as their core. In data mining and 
+machine learning, random forest method would be used for classifying data and for regression 
+of data.   
+
+The random forest method is famous for operative speed, unbalanced data and missing 
+data. But its weakness is hard to predict beyond the range in the training data and could be 
+over-fitting when data with higher noise exists. 
+
+###Example in R
+---
+
+* Use R to implement random forest prediction (classification) and regression
+
+
+
+
+
+
+
+
+
 
 
