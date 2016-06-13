@@ -143,6 +143,48 @@ E: macaque
   1. $$d_{BY} = [d_{BC} + \frac{S_B - S_C}{N-2}]/2 = [9 + \frac{28-29}{2}]/2=4.25$$
   2. $$d_{CY} = d_{BC} - d_{BY} = 9 - 4.25 =4.75$$
 
+###STEP 3 (N = 3 nodes remained) 
+---
+
+* new distance matrix
+  1. X represents both node D and node E 
+  2. Y represents both node B and node C
+  3. $$d_{YA} = (d_{BA} + d_{CA} - d_{BC}) / 2 = (11 + 12 - 9) / 2 = 7$$
+  4. $$d_{YX} = (d_{BX} + d_{CX} -d_{BC})/2 = (8 + 8 - 9)/2=3.5$$
+
+* new distance matrix: Y represents both node B and node C
+
+|  | Y | X |
+| -- | -- | -- |
+| A | 7 | 8.5 |
+| Y |  | 3.5 |
+
+* calculate $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
+  1. $$S_A = S_{AX} + S_{AY} = 8.5 + 7 = 15.5$$
+  2. $$S_X = S_{XA} + S_{XY} = 8.5 + 3.5 = 12$$
+  3. $$S_Y = S_{YA} + S_{YX} = 7 + 3.5 = 10.5$$
+
+* calculate $$\beta_{ij} = d_{ij}-\frac{S_i + S_j}{N-2}$$
+  1. $$\beta_{AY} = 7 – (15.5 + 10.5)/1 = -19 $$
+  2. $$\beta_{AX} = 8.5 – (15.5 + 12)/1 = -19 $$
+  3. $$\beta_{XY} = 3.5 – (12 + 10.5)/1 = -19$$
+
+* New matrix: **related total branch length**
+
+|  | Y | X |
+| -- | -- | -- |
+| A | **-19** | -19 |
+| Y |  | -19 |
+
+* new node (Z): combine node A and node Y 
+  1. $$d_{AZ} = [d_{AY} + \frac{S_A - S_Y}{N-2}]/2 = [7 + \frac{15.5-10.5}{1}]/2 = 6$$
+  2. $$d_{YZ} = d_{AY} - d_{AZ} = 7 -6 = 1$$
+
+* * Construct a tree : the ** smallest ** total branch length: added to the previous tree built
+
+![](../images/nj_s3.png)
+
+###STEP 4 (N = 2 nodes remained)
 
 
 
