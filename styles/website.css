@@ -7,3 +7,8 @@ table thead tr, table thead tr th {
     color: white; 
     font-weight: bold;
 }
+.markdown-section img {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
