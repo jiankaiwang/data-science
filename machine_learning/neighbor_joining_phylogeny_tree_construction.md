@@ -66,6 +66,9 @@ E: macaque
 | C |  |   | 16 | 24 |
 | D |  |   |    | 24 |
 
+###STEP 1 (N = 5 nodes remained)
+---
+
 
 
 
