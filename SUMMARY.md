@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [K nearest neighbor](k_nearest_neighbor.md)
 * [Machine Learning](chapter1.md)
+   * [K nearest neighbor](k_nearest_neighbor.md)
    * [Classification and Prediction](machine_learning/classification_and_prediction.md)
 * [Data mining](data_mining.md)
 * [Statistics](statistics.md)
