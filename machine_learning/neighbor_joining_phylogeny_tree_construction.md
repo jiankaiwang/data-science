@@ -69,21 +69,35 @@ E: macaque
 ###STEP 1 (N = 5 nodes remained)
 ---
 
+* $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
+  1. $$S_A = S_{AB} + S_{AC} + S_{AD} + S_{AE} = 11 + 12 + 17 + 24 = 64$$
+  2. $$S_B = S_{BA} + S_{BC} + S_{BD} + S_{BE} = 11 + 9 + 16 + 24 = 60$$
+  3. $$S_C = 61$$
+  4. $$S_D = 73$$
+  5. $$S_E = 96$$
 
+* $$\beta_{ij} = d_{ij}-\frac{S_i + S_j}{N-2}$$
+  1. $$\beta_{AB} = 11 - \frac{64 + 60}{5 - 2} = -30.3$$
+  2. $$\beta_{AC} = 12 - \frac{64+61}{5-2} = -29.7$$
+  3. $$\beta_{AD} = 17 - \frac{64 + 73}{5-2} = -28.7$$
+  4. calculate all $$\beta_{ij}$$ ($$\beta_{ij}$$ joined as neighbors)
 
+* New matrix: **related total branch length**
 
+|  | B | C | D | E |
+| -- | -- | -- | -- | -- |
+| A | -30.3 | -29.7 | -28.7 | -29.3 |
+| B |  | -29.7 | -28.3 | -28 |
+| C |  |   | -28.7 | -28.3 |
+| D |  |   |    | ** -32.3 ** |
 
+* Construct a tree : the ** smallest ** total branch length: added to the previous tree built
 
+![](../images/nj_s1.png)
 
-
-
-
-
-
-
-
-
-
+* new node (X): combine node D and node E 
+  1. $$d_{DX}=[d_{DE} + \frac{S_D-S_E}{N-2}] / 2 = [24 + \frac{73-96}{3}] / 2 = 8.2$$
+  2. $$d_{EX} = d_{DE}-d_{DX} = 24-8.2 = 15.8$$
 
 
 
