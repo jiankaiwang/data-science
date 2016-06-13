@@ -16,8 +16,9 @@
 | much popular | - |
 
 * Neighbor-joining 
-  1. a method is one of distance-based methods.
-  2. the principle is **minimal evolution** : **the building tree preferred with the smallest branch length in each step**
+  1. a **clustering** method
+  2. **distance**-based method
+  3. the principle is **minimal evolution** : **the building tree preferred with the smallest branch length in each step**
 
 ###Example : Molecular phylogeny 
 ---
@@ -47,15 +48,15 @@ ATCATTCC
 | seqC | 3 | 3 | 0 |
 
 
-* Used example : initial condition 
+* Used example : initial distance matrix 
 
 ```text
+# sequence alignment 
 A: gorilla 
 B: chimpanzee 
 C: human 
 D: orangutan 
 E: macaque 
-(alignment) 
 ```
 
 |  | B | C | D | E |
