@@ -1,5 +1,6 @@
 # K nearest neighbor
 
+<script src="../../js/general.js"></script>
 
 ###Training dataset
 ---
