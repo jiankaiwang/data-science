@@ -135,7 +135,7 @@ E: macaque
 | B |  | **-19.5** | -18.25 |
 | C |  |   | -18.75 |
 
-* * Construct a tree : the ** smallest ** total branch length: added to the previous tree built
+* Construct a tree : the ** smallest ** total branch length: added to the previous tree built
 
 ![](../images/nj_s2.png)
 
@@ -180,11 +180,31 @@ E: macaque
   1. $$d_{AZ} = [d_{AY} + \frac{S_A - S_Y}{N-2}]/2 = [7 + \frac{15.5-10.5}{1}]/2 = 6$$
   2. $$d_{YZ} = d_{AY} - d_{AZ} = 7 -6 = 1$$
 
-* * Construct a tree : the ** smallest ** total branch length: added to the previous tree built
+* Construct a tree : the ** smallest ** total branch length: added to the previous tree built
 
 ![](../images/nj_s3.png)
 
 ###STEP 4 (N = 2 nodes remained)
+---
+
+* new distance matrix: 
+  1. X represents both node D and node E
+  2. Y represents both node B and node C
+  3. Z represents both node A and node Y
+  4. $$d_{XZ} = (d_{AX} + d_{YX} - d_{AY})/2 = (8.5+3.5-7)/2=2.5$$
+
+* new distance matrix : Z represents both node A and node Y
+
+|  | X |
+| -- | -- |
+| Z | 2.5 |
+
+* calculate $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
+  1. $$S_X = S_{XZ} = 2.5 = S_{XZ} = S_Z$$
+
+* Construct a tree : the ** smallest ** total branch length: added to the previous tree built
+
+
 
 
 
