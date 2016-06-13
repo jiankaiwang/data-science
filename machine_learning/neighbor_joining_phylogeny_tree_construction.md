@@ -1,2 +1,4 @@
-# Neighbor Joining (phylogeny tree construction)
+# Neighbor Joining (phylogeny tree)
+---
+
 
