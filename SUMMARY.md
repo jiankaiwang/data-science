@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Machine Learning](chapter1.md)
    * [Classification and Prediction](machine_learning/classification_and_prediction.md)
+       * K nearest neighbor
 * [K nearest neighbor](k_nearest_neighbor.md)
 * [Data mining](data_mining.md)
 * [Statistics](statistics.md)
