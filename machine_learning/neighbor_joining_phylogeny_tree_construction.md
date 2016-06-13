@@ -204,6 +204,6 @@ E: macaque
 
 * Construct a tree : the ** smallest ** total branch length: added to the previous tree built
 
-
+![](../images/nj_s4.png)
 
 
