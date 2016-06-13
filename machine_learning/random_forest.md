@@ -1,6 +1,6 @@
 # Random Forest
 
-<script src="../../js/general.js"></script>
+<script src="../js/general.js"></script>
 
 ###Discussion and flows
 ---
