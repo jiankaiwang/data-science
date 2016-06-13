@@ -1,5 +1,5 @@
 {
-    "plugins" : [ "include-highlight","mathjax","autocover" ],  
+    "plugins" : [ "include-highlight","mathjax","autocover","include-codeblock" ],  
     "pluginsConfig": {
         "autocover": {
               "title": "Data Science",
