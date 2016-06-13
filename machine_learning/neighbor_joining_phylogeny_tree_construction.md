@@ -69,14 +69,14 @@ E: macaque
 ###STEP 1 (N = 5 nodes remained)
 ---
 
-* $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
+* calculate $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
   1. $$S_A = S_{AB} + S_{AC} + S_{AD} + S_{AE} = 11 + 12 + 17 + 24 = 64$$
   2. $$S_B = S_{BA} + S_{BC} + S_{BD} + S_{BE} = 11 + 9 + 16 + 24 = 60$$
   3. $$S_C = 61$$
   4. $$S_D = 73$$
   5. $$S_E = 96$$
 
-* $$\beta_{ij} = d_{ij}-\frac{S_i + S_j}{N-2}$$
+* calculate $$\beta_{ij} = d_{ij}-\frac{S_i + S_j}{N-2}$$
   1. $$\beta_{AB} = 11 - \frac{64 + 60}{5 - 2} = -30.3$$
   2. $$\beta_{AC} = 12 - \frac{64+61}{5-2} = -29.7$$
   3. $$\beta_{AD} = 17 - \frac{64 + 73}{5-2} = -28.7$$
@@ -98,6 +98,51 @@ E: macaque
 * new node (X): combine node D and node E 
   1. $$d_{DX}=[d_{DE} + \frac{S_D-S_E}{N-2}] / 2 = [24 + \frac{73-96}{3}] / 2 = 8.2$$
   2. $$d_{EX} = d_{DE}-d_{DX} = 24-8.2 = 15.8$$
+
+
+###STEP 2 (N = 4 nodes remained)
+---
+
+* calculate new $$d_{ij}$$ value
+  1. $$d_{XA} = (d_{DA} + d_{EA} - d_{DE}) / 2 = (17 + 24 - 24) / 2 = 8.5$$
+  2. $$d_{XB} = (d_{DB} + d_{EB} - d_{DE}) / 2 = (16 + 24 -24)/2 = 8$$
+  3. $$d_{XC} = (d_{DC} + d_{EC} - d_{DE}) / 2 = 8$$
+
+* new distance matrix: x represents both node D and node E
+
+|  | B | C | X |
+| -- | -- | -- | -- |
+| A | 11 | 12 | 8.5 |
+| B |  | 9 | 8 |
+| C |  |   | 8 |
+
+* calculate $$S_x value = \sum^{N}_{i=1}{d_{xi}}$$，N = operation taxonomic units
+  1. $$S_A = S_{AB} + S_{AC} + S_{AX} = 11 + 12 + 8.5 = 31.5$$
+  2. $$S_B = S_{BA} + S_{BC} + S_{BX} = 11 + 9 + 8 = 28$$
+  3. $$S_C = S_{CA} + S_{CB} + S_{CX} = 12 + 9 + 8 = 29$$
+  4. $$S_X = S_{XA} + S_{XB} + S_{XC} = 8.5 + 8 + 8 = 24.5$$
+
+* calculate $$\beta_{ij} = d_{ij}-\frac{S_i + S_j}{N-2}$$
+  1. $$\beta_{AB} = 11-(31.5+28)/2 = -18.75$$
+  2. $$\beta_{AC} = 12 - (31.5+29)/2 = -18.25$$
+  3. calculate all $$\beta_{ij}$$
+
+* New matrix: **related total branch length**
+
+|  | B | C | X |
+| -- | -- | -- | -- |
+| A | -18.75 | -18.25 | -19.5 |
+| B |  | **-19.5** | -18.25 |
+| C |  |   | -18.75 |
+
+* * Construct a tree : the ** smallest ** total branch length: added to the previous tree built
+
+![](../images/nj_s2.png)
+
+* new node (Y): combine node B and node C 
+  1. $$d_{BY} = [d_{BC} + \frac{S_B - S_C}{N-2}]/2 = [9 + \frac{28-29}{2}]/2=4.25$$
+  2. $$d_{CY} = d_{BC} - d_{BY} = 9 - 4.25 =4.75$$
+
 
 
 
