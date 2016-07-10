@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Machine Learning](chapter1.md)
+* [Machine Learning](machine_learning/machine_learning.md)
    * [Classification and Prediction](machine_learning/classification_and_prediction.md)
        * [K nearest neighbor](machine_learning/k_nearest_neighbor.md)
        * [Random Forest](machine_learning/random_forest.md)
