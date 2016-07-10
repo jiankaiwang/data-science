@@ -14,6 +14,6 @@
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
    * [Correlation](statistics/correlation.md)
        * [Pearson Correlation](statistics/pearson_correlation.md)
-       * Spearman Rank Correlation
+       * [Spearman Rank Correlation](statistics/spearman_rank_correlation.md)
 * [Mathematics](mathematics/mathematics.md)
 
