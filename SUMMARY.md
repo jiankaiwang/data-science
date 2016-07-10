@@ -11,4 +11,5 @@
 * [Statistics](statistics/statistics.md)
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
 * [Mathematics](mathematics/mathematics.md)
+* Useful Resource
 
