@@ -16,3 +16,4 @@
 ### Support Vector Machines
 
 * 分類高維度資料有相當好的分類結果。
+* SVM is one of supervised classification method by projected from high- back to low- dimension.
