@@ -1,5 +1,6 @@
 # Correlation
 
+<script src="../js/general.js"></script>
 
 ###Pearson correlation
 ---
