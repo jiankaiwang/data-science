@@ -56,8 +56,7 @@ getOriData <- read.table("training.12-mer.features.csv",header=T,sep=",")
 getTest <- read.table("testing.12-mer.features.csv",header=T,sep=",")
 
 #-------------------------------------------
-
-# data distribution
+# data distribution to select dispersible data features
 sdData <- function(data) {
 	return(sd(data))
 }
