@@ -13,5 +13,6 @@
 * [Statistics](statistics/statistics.md)
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
    * [Correlation](statistics/correlation.md)
+       * Pearson Correlation
 * [Mathematics](mathematics/mathematics.md)
 
