@@ -5,7 +5,13 @@
 ###Definition
 ---
 
+$$p=\sum_{i=E}^{n}\frac{\binom{M}{i}\binom{N-M}{n-i}}{\binom{N}{n}}$$
 
+* N = size of population
+* M = number of items in population with property 'E'
+* N-M = number of items in population without property 'E'
+* n = number of items sampled
+* i = number of items in the sample with property 'E'
 
 ###Example
 ---
