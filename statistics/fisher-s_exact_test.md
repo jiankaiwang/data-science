@@ -32,3 +32,25 @@ fisher.test(
 )
 ```
 
+* Example in R
+
+```R
+# prepare data
+Testing <- matrix(
+                c(1, 11, 9, 3), 
+                nrow = 2, 
+                dimnames = list(
+                  behavior = c("Dieting", "Non-dieting"), 
+                  sex = c("Men", "Women")
+                )
+            )
+		       
+# the data
+#              sex
+#  behavior    Men Women
+#  Dieting       1     9
+#  Non-dieting  11     3
+		       
+# start to calculate fisher's exact test and get p.value
+fisher.test(Testing, alternative = "less")$p.value
+```
