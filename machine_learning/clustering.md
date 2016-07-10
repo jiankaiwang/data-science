@@ -15,4 +15,4 @@
 ###Hierarchical clustering
 ---
 
-* 
+* A useful clustering method for construct a hierarchical tree showing the similarity.
