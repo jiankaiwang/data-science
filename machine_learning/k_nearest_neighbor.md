@@ -48,8 +48,7 @@ label           1           2           3           4           5           6   
 * KNN 是透過多個分類特徵來建立起分類依據，但並非所有特徵皆須納入考慮，可以透過簡單的資料分散性來取出資料較為分散的特徵，並透過訓練此篩選出的特徵進行分類訓練即可。
 
 ```R
-install.packages("knn")
-library("knn")
+library("class")
 
 # read data
 getOriData <- read.table("training.12-mer.features.csv",header=T,sep=",")
@@ -82,7 +81,6 @@ labels <- getOriData[,"label"]
 test <- getTest[,getTtlFeatures]
 
 # for knn function
-library("class")
 classRes1 <- knn(train,test,labels,k = 3, l = 0, prob = FALSE, use.all = TRUE)
 
 # contain KNN result
