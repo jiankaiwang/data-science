@@ -10,7 +10,7 @@
 ### Correlation
 ---
 
-* 
+* 多筆資料的連續性相關分析。
 
 ### Normalization
 ---
