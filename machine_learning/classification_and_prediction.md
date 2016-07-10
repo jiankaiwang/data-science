@@ -10,3 +10,5 @@
 
 ### Random forest
 ---
+
+* It is good for non-linear data regression and prediction.
