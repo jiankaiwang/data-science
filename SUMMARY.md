@@ -10,7 +10,7 @@
    * [Clustering](machine_learning/clustering.md)
        * [Neighbor Joining (phylogeny tree construction)](machine_learning/neighbor_joining_phylogeny_tree_construction.md)
        * [K means](machine_learning/k_means.md)
-       * Hierarchical clustering
+       * [Hierarchical clustering](machine_learning/hierarchical_clustering.md)
 * [Data mining](data_mining/data_mining.md)
 * [Statistics](statistics/statistics.md)
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
