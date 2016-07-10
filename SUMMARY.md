@@ -20,6 +20,6 @@
    * [Normalization](statistics/normalization.md)
        * [Quantile Normalization](statistics/quantile_normalization.md)
    * [Fisher's exact test](statistics/fisher-s_exact_test.md)
-   * Hypergeometric test
+   * [Hypergeometric test](statistics/hypergeometric_test.md)
 * [Mathematics](mathematics/mathematics.md)
 
