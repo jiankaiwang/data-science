@@ -12,6 +12,6 @@
 * [Data mining](data_mining/data_mining.md)
 * [Statistics](statistics/statistics.md)
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
-   * Correlation
+   * [Correlation](statistics/correlation.md)
 * [Mathematics](mathematics/mathematics.md)
 
