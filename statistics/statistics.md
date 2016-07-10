@@ -20,4 +20,4 @@
 ###Fisher's exact test
 ---
 
-*
+* A rigorous method replaces chi-squared test in large samples.
