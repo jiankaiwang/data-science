@@ -5,3 +5,4 @@
 ###Background
 ---
 
+* The simple plot shows flowchart of quantile normalization.
