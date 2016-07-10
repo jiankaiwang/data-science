@@ -16,6 +16,6 @@
        * [Pearson Correlation](statistics/pearson_correlation.md)
        * [Spearman Rank Correlation](statistics/spearman_rank_correlation.md)
    * [Normalization](statistics/normalization.md)
-       * Quantile Normalization
+       * [Quantile Normalization](statistics/quantile_normalization.md)
 * [Mathematics](mathematics/mathematics.md)
 
