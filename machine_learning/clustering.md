@@ -11,3 +11,8 @@
 ---
 
 * 嘗試將資料特徵分成 K 群的分群結果。
+
+###Hierarchical clustering
+---
+
+* 
