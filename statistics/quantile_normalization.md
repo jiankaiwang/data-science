@@ -12,7 +12,7 @@
 ###Quantile normalization in R
 ---
 
-* Package: preprocessCore (in bioconductor)
+* Package: preprocessCore (in bioconductor) 
 
 ```R
 # reference
