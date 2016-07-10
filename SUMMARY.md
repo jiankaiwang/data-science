@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Useful Resource
+* [Useful Resource](useful_resource.md)
 * [Machine Learning](machine_learning/machine_learning.md)
    * [Classification and Prediction](machine_learning/classification_and_prediction.md)
        * [K nearest neighbor](machine_learning/k_nearest_neighbor.md)
