@@ -15,7 +15,15 @@ $$\mu_X$$ is the mean of X, and E is the exceptation.
 
 * For a sample
 
+$$r = \frac{\Sigma_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt{\Sigma_{i=1}^{n}(X_i-\bar{X})^2}\sqrt{\Sigma_{i=1}^{n}(Y_i-\bar{Y})^2}}$$
 
+where, an equivalent expression is the following:
+
+$$r = \frac{1}{n-1}\Sigma_{i=1}^{n}(\frac{X_i-\bar{X}}{S_X})(\frac{Y_i-\bar{Y}}{S_Y})$$
+
+where,
+
+$$\bar{X} = \frac{1}{n}\Sigma_{i=1}^{n}X_i,\ and\ S_X = \sqrt{\frac{1}{n-1}\Sigma_{i=1}^{n}(X_i-\bar{X})^{2}}$$
 
 ###Calculate Correlation in R
 ---
