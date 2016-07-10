@@ -7,3 +7,8 @@
 
 * KNN
 * Random forest
+
+###Clustering
+---
+
+* Neighbor Joining (phylogeny tree construction)
