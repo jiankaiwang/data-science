@@ -45,7 +45,7 @@ label           1           2           3           4           5           6   
 ###KNN in R
 ---
 
-* KNN 是透過多個分類特徵來建立起分類依據，但並非所有特徵皆須納入考慮，可以透過簡單的資料分散性來取出資料較為分散的特徵，並透過訓練此篩選出的特徵進行分類即可。
+* KNN 是透過多個分類特徵來建立起分類依據，但並非所有特徵皆須納入考慮，可以透過簡單的資料分散性來取出資料較為分散的特徵，並透過訓練此篩選出的特徵進行分類訓練即可。
 
 ```R
 install.packages("knn")
@@ -66,7 +66,6 @@ getDataDistribution <- apply(getOriData[,-1],2,sdData)
 
 # sort
 getMaxMin <- as.matrix(sort(getDataDistribution))
-
 #--------------------------------
 
 # selection range
