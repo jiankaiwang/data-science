@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Useful Resource
 * [Machine Learning](machine_learning/machine_learning.md)
    * [Classification and Prediction](machine_learning/classification_and_prediction.md)
        * [K nearest neighbor](machine_learning/k_nearest_neighbor.md)
@@ -11,5 +12,4 @@
 * [Statistics](statistics/statistics.md)
    * [Summary of Inferential Statistics](statistics/summary_of_inferential_statistics.md)
 * [Mathematics](mathematics/mathematics.md)
-* Useful Resource
 
