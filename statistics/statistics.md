@@ -21,3 +21,8 @@
 ---
 
 * A rigorous method replaces chi-squared test in large samples.
+
+###Hypergeometric test
+---
+
+* A rigorous method uses in analyzing high-dimensional tree-level data.
