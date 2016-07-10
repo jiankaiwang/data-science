@@ -2,9 +2,10 @@
 
 <script src="../../js/general.js"></script>
 
-###
+###Summary of Inferential Statistics
 ---
 
+* 
 
 ### Correlation
 ---
