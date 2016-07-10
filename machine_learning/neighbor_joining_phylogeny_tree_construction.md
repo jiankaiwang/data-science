@@ -1,5 +1,4 @@
 # Neighbor Joining (phylogeny tree)
----
 
 <script src="../js/general.js"></script>
 
