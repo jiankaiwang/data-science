@@ -60,7 +60,9 @@ getSubtreeHeight <- cutree( hc_ave, h=0.007 )
 ###Example result
 ---
 
+* The following is the result of hierarchical clustering to group as tree-typed format from auto-generated data.
 
+![](../images/hierarchical_clustering.png)
 
 
 
