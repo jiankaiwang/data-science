@@ -5,8 +5,7 @@
 ###Classification and Prediction
 ---
 
-* KNN
-* Random forest
+* 為 supervised 分類方式，透過專家預先定義訓練資料中每一個物件的分類結果，此結果為絕對正確；而後透過
 
 ###Clustering
 ---
