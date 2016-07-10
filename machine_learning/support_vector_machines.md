@@ -43,7 +43,46 @@ label           1           2           3           4           5           6   
 ###Code in R
 ---
 
+* SVM 是透過多個分類特徵來建立起分類依據，但並非所有特徵皆須納入考慮，可以透過簡單的資料分散性來取出資料較為分散的特徵，並透過訓練此篩選出的特徵進行分類訓練即可。
 
+```R
+# read data
+getOriData <- read.table("training.12-mer.features.csv",header=T,sep=",")
+getTest <- read.table("testing.12-mer.features.csv",header=T,sep=",")
+#-------------------------------------------
+# data distribution
+sdData <- function(data) {
+	return(sd(data))
+}
+getDataDistribution <- apply(getOriData[,-1],2,sdData)
+
+# sort
+getMaxMin <- as.matrix(sort(getDataDistribution))
+#--------------------------------
+# selection range
+lRange <- which(getMaxMin[] > 0.062)
+sRange <- which(getMaxMin[] < 0.043)
+
+# total
+getMaxCol <- rownames(getMaxMin)[lRange]
+getMinCol <- rownames(getMaxMin)[sRange]
+getTtlFeatures <- c(getMaxCol,getMinCol)
+
+# get for trainning
+train <- getOriData[,getTtlFeatures]
+labels <- getOriData[,"label"]
+test <- getTest[,getTtlFeatures]
+# -------------------------------------------
+# svm
+install.packages("e1071")
+library("e1071")
+
+newFactor <- factor(labels)
+model <- svm(train,newFactor,type="C-classification")
+svmClass <- predict(model,test)
+
+write.table(svmClass,"output2.txt",sep=",",quote=FALSE,eol = "\n",row.names = FALSE,col.names= FALSE)
+```
 
 
 
