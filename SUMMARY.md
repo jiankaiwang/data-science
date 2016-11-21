@@ -24,4 +24,5 @@
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
        * Matlab
+       * Python
 
