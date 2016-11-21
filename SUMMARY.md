@@ -23,6 +23,5 @@
    * [Hypergeometric test](statistics/hypergeometric_test.md)
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
-       * [Matlab](mathematics/matlab.md)
        * [Python](mathematics/python.md)
 
