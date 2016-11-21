@@ -1,6 +1,6 @@
 # K nearest neighbor
 
-<script src="../../js/general.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
 
 * KNN 為一常用的分類方法，概念為 : 
   1. 找出距離某點最近的 K 個鄰近點，而成一個類別。
