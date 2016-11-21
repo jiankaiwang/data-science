@@ -7,6 +7,12 @@
 
 * solve 2nd order differential equation :　$$\frac{d^{2}x}{dt^{2}} +５\frac{dx}{dt}-4x(t) = sin(10t)$$, and initial x(0) = 0 and x'(0) = 0
 
+* Derivation
+
+
+
+* matlab code
+
 ```matlab
 function second_order_ode
     % solv : d2x/dt2 + 5 dx/dt - 4 x = sin (10t)
