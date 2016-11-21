@@ -7,6 +7,8 @@
 
 * solve 1st order differential equation : $$\frac{dx}{dt} = 3e^{-t}$$, and initial x(0) = 0
 
+* matlab code
+
 ```matlab
 function test1
     % solv dx/dt = 3 exp (-t)
