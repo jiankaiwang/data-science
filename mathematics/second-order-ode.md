@@ -13,9 +13,9 @@ assume $$x_{1} = x, x_{2} = x'$$
 
 $$=> x_{1}' = x', x_{2}' = x''$$
 
-$$=> x_{2} = x_{1}'$$ and $$x_{2}' + 5x_{1}' -4x(t) = sin(10t)$$
+$$=> x_{2} = x_{1}'$$ and $$x_{2}' + 5x_{1}' -4x = sin(10t)$$
 
-$$=> x_{1}' = x_{2}$$ and $$x_{2}' = -5x_{1}' + 4x(t) + sin(10t) $$
+$$=> x_{1}' = x_{2}$$ and $$x_{2}' = -5x_{1}' + 4x + sin(10t) = -5x_{2} + 4x_{1} + sin(10t) $$
 
 then the above 2 first order ODE would be further solved on matlab code
 
