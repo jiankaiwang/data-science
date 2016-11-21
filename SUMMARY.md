@@ -22,5 +22,5 @@
    * [Fisher's exact test](statistics/fisher-s_exact_test.md)
    * [Hypergeometric test](statistics/hypergeometric_test.md)
 * [Mathematics](mathematics/mathematics.md)
-   * Modeling
+   * [Modeling](mathematics/modeling.md)
 
