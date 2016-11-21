@@ -1,6 +1,6 @@
 # Summary of Inferential Statistics
 
-<script src="../js/general.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
 
 ###下列表格整理出針對不同狀況而使用的假說性統計方法
 ---
