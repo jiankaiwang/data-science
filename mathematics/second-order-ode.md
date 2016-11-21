@@ -2,7 +2,7 @@
 
 <script type="text/javascript" src="../js/general.js"></script>
 
-### Solve in Matlab
+### Example.1 : $$\frac{d^{2}x}{dt^{2}} +５\frac{dx}{dt}-4x(t) = sin(10t)$$
 ---
 
 * solve 2nd order differential equation :　$$\frac{d^{2}x}{dt^{2}} +５\frac{dx}{dt}-4x(t) = sin(10t)$$, and initial x(0) = 0 and x'(0) = 0
@@ -49,10 +49,60 @@ end
 
 ![](../images/second-order-ode.jpg)
 
-### Solve in Python
+### Example.2 : $$(3x-1)\frac{d^{2}y}{dx^{2}}-(3x+2)\frac{dy}{dx}-(6x-8)y = 0$$
 ---
 
-* solve 2nd order differential equation : $$(3x-1)\frac{d^{2}y}{dt^{2}}-(3x+2)\frac{dy}{dt}-(6x-8)y = 0$$, and initial y(0) = 2, y'(0) = 3
+* solve 2nd order differential equation : $$(3x-1)\frac{d^{2}y}{dx^{2}}-(3x+2)\frac{dy}{dx}-(6x-8)y = 0$$, and initial y(0) = 2, y'(0) = 3
+
+* Derivation
+
+assume $$y_{1} = y$$, $$y_{2} = y'$$
+
+=> $$y_{1}' = y'$$, $$y_{2}' = y''$$
+
+=> $$y_{1}' = y_{2}$$, and $$(3x-1)y_{2}' - (3x+2)y_{1}' - (6x - 8)y = 0$$
+
+then $$y_{1}' = y_{2}$$, and $$y_{2}' = \frac{(3x + 2)y_{2} + (6x - 8)y_{1}}{(3x - 1)}$$
+
+* matlab code
+
+```matlab
+function example
+    
+    init_y = 2;
+    init_dydx = 3;
+    
+    % integrate from 0 to 2
+    x = 0 : 0.02 : 2;
+    [x, y] = ode45(@rhs, x, [init_y init_dydx]);
+    plot(x, y(:,1));
+    
+    % try to plot two line
+    hold on
+    
+    % integrate from -2 to 0
+    x = 0 : -0.02 : -2;
+    [x, y] = ode45(@rhs, x, [init_y init_dydx]);
+    plot(x, y(:,1));
+    
+    hold off
+    
+    xlabel('x');
+    ylabel('y');
+
+    function dydt = rhs(x, y)
+        dydt_1 = y(2);
+        dydt_2 = ((3*x + 2) * y(2) + (6*x - 8) * y(1))/(3*x-1);
+        dydt = [dydt_1; dydt_2];
+    end
+end
+```
+
+the result in matlab
+
+![](../images/second-order-ode-matlab.jpg)
+
+* python code
 
 ```python
 import numpy as np
@@ -88,6 +138,6 @@ plt.legend()
 plt.show()
 ```
 
-* the result
+the result in python
 
 ![](../images/second-order-ode-python.jpg)
