@@ -23,4 +23,5 @@
    * [Hypergeometric test](statistics/hypergeometric_test.md)
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
+       * first-order-ode
 
