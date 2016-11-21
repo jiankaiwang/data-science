@@ -1,6 +1,6 @@
 # Hierarchical clustering
 
-<script src="../js/general.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
 
 ###Hierarchical clustering in R
 ---
