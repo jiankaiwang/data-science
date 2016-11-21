@@ -1,6 +1,6 @@
 # Neighbor Joining (phylogeny tree)
 
-<script src="../js/general.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
 
 * Saitou et al. (1987) The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol Biol Evol 4(4), 406-425
 
