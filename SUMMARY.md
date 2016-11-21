@@ -24,5 +24,5 @@
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
        * [Matlab](mathematics/matlab.md)
-       * Python
+       * [Python](mathematics/python.md)
 
