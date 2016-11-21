@@ -24,5 +24,5 @@
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
        * [First Order ODE](mathematics/first-order-ode.md)
-       * [second-order-ode](mathematics/second-order-ode.md)
+       * [Second Order ODE](mathematics/second-order-ode.md)
 
