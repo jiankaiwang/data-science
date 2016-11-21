@@ -23,6 +23,6 @@
    * [Hypergeometric test](statistics/hypergeometric_test.md)
 * [Mathematics](mathematics/mathematics.md)
    * [Modeling](mathematics/modeling.md)
-       * [first-order-ode](mathematics/first-order-ode.md)
+       * [First Order ODE](mathematics/first-order-ode.md)
        * [second-order-ode](mathematics/second-order-ode.md)
 
