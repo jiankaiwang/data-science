@@ -2,12 +2,17 @@
 
 <script type="text/javascript" src="../js/general.js"></script>
 
-### matlab
+### First Order ODE in Matlab
 ---
 
-* 1st or 2nd order ODE 於 matlab 實作
+* 
 
-### python
+### Second Order ODE in Matlab
 ---
 
-* 3rd order ODE 於 python 實作
+*
+
+### Third Order ODE in Python
+---
+
+* 
