@@ -1,6 +1,6 @@
 # Random Forest
 
-<script src="../js/general.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
 
 * 範例檔案 : 20160614_random_forest.rar
 
