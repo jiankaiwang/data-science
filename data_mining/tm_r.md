@@ -7,6 +7,12 @@
 
 * tm package in R
 
+```r
+install.packages("tm")
+install.packages("RCurl")
+install.packages("XML")
+```
+
 ### Processing Flow
 ---
 
