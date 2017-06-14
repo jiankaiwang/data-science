@@ -33,6 +33,8 @@ library("XML")
 ### Data import
 ---
 
+* Parse the web content, parse it and prepare a corpus object
+
 ```r
 # fetch html content
 doc.html = htmlTreeParse(
@@ -46,9 +48,10 @@ doc.text = gsub('\\n', '', doc.text, fixed = TRUE)
 doc.text = gsub(' ', '', doc.text, fixed = TRUE)
 doc.text = gsub('\\t', '', doc.text, fixed = TRUE)
 
-# Data Preparation
+# Data (Corpus) Preparation on VCorpus (Volatile)
 # reader : getReaders() to see supported list
 # language : ISO 639-2 codes
+# |- zho : chinese
 d.corpus <- VCorpus(
   VectorSource(doc.text), 
   list(
@@ -58,8 +61,30 @@ d.corpus <- VCorpus(
 )
 ```
 
+### Data Transformation (Corpus Handling)
+---
+
+```r
+# remove punctuation
+d.corpus <- tm_map(d.corpus, content_transformer(removePunctuation))
+
+# remove numbers
+d.corpus <- tm_map(d.corpus, content_transformer(removeNumbers))
+
+# remove numbers and alphabets
+d.corpus <- tm_map(d.corpus, content_transformer(function(word) {
+  gsub("[A-Za-z0-9]", "", word)
+}))
+
+# prepare as the plain text document
+d.corpus <- tm_map(d.corpus, content_transformer(PlainTextDocument))
+
+# strip the white space
+d.corpus <- tm_map(d.corpus, content_transformer(stripWhitespace))
 
 
+d.corpus <- tm_map(d.corpus,content_transformer(removeWords),stopwords("english"))
+```
 
 
 
