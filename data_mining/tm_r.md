@@ -175,6 +175,45 @@ dtm <- DocumentTermMatrix(
 inspect(dtm)
 ```
 
+### Data analysis
+---
+
+* find terms by frequencies
+
+```r
+allTerms <- findFreqTerms(tdm,5)
+```
+
+* find terms by association
+
+```r
+findAssocs(tdm, allTerms[3], 0.1)
+```
+
+* remove terms by sparsing
+
+```r
+inspect(
+  removeSparseTerms(dtm, 0.4)
+)
+```
+
+### Dictionary List
+---
+
+```r
+# Dictionary
+inspect(
+  DocumentTermMatrix(
+    d.corpus, 
+    list(dictionary = c(allTerms[1],allTerms[2]))
+  )
+)
+```
+
+
+
+
 
 
 
