@@ -13,7 +13,7 @@ img {
   margin-right: auto;
 }
 .markdown-section img {
-  max-width: 70%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
