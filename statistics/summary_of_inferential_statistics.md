@@ -7,6 +7,8 @@
 
 ![](/images/statistics.png)
 
+* [點擊放大圖片](/images/statistics.png)
+
 ###重要說明
 ---
 
