@@ -1,9 +1,9 @@
 # K means
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###K means in R
----
+
+##K means in R
+
 
 ```R
 # intall packages and load the package
@@ -31,8 +31,9 @@ plot(combineData, col = clusterRes$cluster)
 points(clusterRes$centers, col = 1:2, pch = 8, cex = 2)
 ```
 
-###Example result
----
+
+
+##Example result
 
 * The following is the result of kmeans to group two clusters from auto-generated data.
 

@@ -1,10 +1,8 @@
 # Hypergeometric test
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###Definition
----
 
+##Definition
 $$p=\sum_{i=E}^{n}\frac{\binom{M}{i}\binom{N-M}{n-i}}{\binom{N}{n}}$$
 
 * N = size of population
@@ -13,17 +11,19 @@ $$p=\sum_{i=E}^{n}\frac{\binom{M}{i}\binom{N-M}{n-i}}{\binom{N}{n}}$$
 * n = number of items sampled
 * i = number of items in the sample with property 'E'
 
-###Example
----
 
-| desc | format |
-| -- | -- |
-| A gene ontology reference database contains 1000 genes. | i = 3, n = 10 |
-| There are 200 genes involving type "DNA repair". | M = 200, N = 1000 |
+
+##Example
+
+| desc                                     | format                                   |
+| ---------------------------------------- | ---------------------------------------- |
+| A gene ontology reference database contains 1000 genes. | i = 3, n = 10                            |
+| There are 200 genes involving type "DNA repair". | M = 200, N = 1000                        |
 | Now, one group contains 10 genes. what is p-value that contains at least 3 genes with the type? | p-value = p(3) + p(4) + p(5) + ... + p(10) = 0.2021 + 0.0877 + ... + 8.52e-08 = 0.32189479 |
 
-###R script
----
+
+
+##R script
 
 * package: Hypergeometric {stats}
 

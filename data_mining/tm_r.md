@@ -1,6 +1,6 @@
 # Text Mining on tm pakage in R
 
-<script type="text/javascript" src="../js/general.js"></script>
+
 
 ### Dependency
 ---
@@ -122,9 +122,9 @@ head(myStopWords, 20)
 There are two methods in `tm` package to manage the metadata,
 1. DublinCore
 2. meta
-, and `meta` further includes two types of metadata,
-1. metadata on corpus level (corpus)
-2. individual documents (indexed) in form of a data frame.
+  , and `meta` further includes two types of metadata,
+3. metadata on corpus level (corpus)
+4. individual documents (indexed) in form of a data frame.
 
 * by `DublinCore()`
 

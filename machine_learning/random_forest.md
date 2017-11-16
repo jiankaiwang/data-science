@@ -1,12 +1,10 @@
 # Random Forest
 
-<script type="text/javascript" src="../js/general.js"></script>
-
 * 範例檔案 : 20160614_random_forest.rar
 
-###Discussion and flows
----
 
+
+##Discussion and flows
 Random Forest is a **divide-and-conquer** method useful for data classification and 
 regression. Random Forest is an **ensemble learning** method - generate several classifiers and 
 aggregate their results into one at final - built on **decision trees** (figure.1 [1]). In the other 
@@ -49,20 +47,20 @@ The random forest method is famous for operative speed, unbalanced data and miss
 data. But its weakness is hard to predict beyond the range in the training data and could be 
 over-fitting when data with higher noise exists. 
 
-###Example in R
----
 
+
+##Example in R
 * Use R to implement random forest prediction (classification) and regression
 
 * data (train) : Use iris dataset
 
-|  | Sepal.Length | Sepal.Width | Petal.Length | Petal.Width | Species |
-| -- | -- | -- | -- | -- | -- |
-| 1 | 5.1 | 3.5 | 1.4 | 0.2 | setosa |
-| 2 | 4.9 | 3.0 | 1.4 | 0.2 | setosa |
-| 3 | 4.7 | 3.2 | 1.3 | 0.2 | setosa |
-| 4 | 4.6 | 3.1 | 1.5 | 0.2 | setosa |
-| 5 | 5.0 | 3.6 | 1.4 | 0.2 | setosa |
+|      | Sepal.Length | Sepal.Width | Petal.Length | Petal.Width | Species |
+| ---- | ------------ | ----------- | ------------ | ----------- | ------- |
+| 1    | 5.1          | 3.5         | 1.4          | 0.2         | setosa  |
+| 2    | 4.9          | 3.0         | 1.4          | 0.2         | setosa  |
+| 3    | 4.7          | 3.2         | 1.3          | 0.2         | setosa  |
+| 4    | 4.6          | 3.1         | 1.5          | 0.2         | setosa  |
+| 5    | 5.0          | 3.6         | 1.4          | 0.2         | setosa  |
 
 * R code
 

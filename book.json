@@ -1,5 +1,5 @@
 {
-    "plugins" : [ "autocover","addcssjs","versions","-mathjax" ],  
+    "plugins" : [ "autocover","versions" ],  
     "pluginsConfig": {
         "autocover": {
               "title": "Data Science",
@@ -16,9 +16,6 @@
               "background": {
                   "color": "#FFF"
               }
-        },
-        "addcssjs": {
-              "js": ["js/general.js"]
         },
         "versions": {
             "type": "branches"

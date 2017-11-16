@@ -1,17 +1,13 @@
 # Summary of Inferential Statistics
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###下列表格整理出針對不同狀況而使用的假說性統計方法
----
 
-![](/images/statistics.png)
+##下列表格整理出針對不同狀況而使用的假說性統計方法
+![](../images/statistics.png)
 
-* [點擊放大圖片](/images/statistics.png)
 
-###重要說明
----
 
+##重要說明
 1. ANOVA 並無法得知各組間的比較，如 (Sample1, Sample2)、(Sample1, Sample3)、...。透過 Multiple comparison 可以進行 pairwise 的比較而挑出各組間是否有顯著差異，常用的方法如 Tukey's method、Fisher's Least Significant Difference 與 Duncan's New Multiple Range Test 等。
 
 2. 常見的 correltion 方式如 Yate's correlation 等。

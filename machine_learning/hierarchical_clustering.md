@@ -1,9 +1,9 @@
 # Hierarchical clustering
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###Hierarchical clustering in R
----
+
+##Hierarchical clustering in R
+
 
 ```R
 # generate the data
@@ -57,8 +57,9 @@ getSubtreeGroup <- cutree( hc_ave, k=15 )
 getSubtreeHeight <- cutree( hc_ave, h=0.007 )
 ```
 
-###Example result
----
+
+
+##Example result
 
 * The following is the result of hierarchical clustering to group as tree-typed format from auto-generated data.
 

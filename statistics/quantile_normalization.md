@@ -1,16 +1,15 @@
 # Quantile Normalization
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###Background
----
 
+##Background
 * The simple plot shows flowchart of quantile normalization.
 
 ![](../images/quantile_normalization.png)
 
-###Quantile normalization in R
----
+
+
+##Quantile normalization in R
 
 * Package: preprocessCore (in bioconductor) 
 

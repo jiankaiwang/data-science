@@ -1,26 +1,17 @@
 # Data Science
 
-數據科學（英語：Data Science）是一門利用數據學習知識的學科，其目標是通過從數據中提取出有價值的部分來生產數據產品。它結合了諸多領域中的理論和技術，包括應用數學，統計，模式識別，機器學習，數據可視化，數據倉庫，以及高性能計算。數據科學通過用運用各種相關的數據來幫助非專業人士理解問題。
 
-### Machine Learning
 
-* 機器學習理論主要是設計和分析一些讓計算機可以自動「學習」的算法。機器學習算法是一類從數據中自動分析獲得規律，並利用規律對未知數據進行預測的算法。
+Data Science is the emerging field to acquire knowledge from data. Its goal is to extract the valuable information from data, and to transform or to manufacture the data product. The book focuses on both fundemational science knowledge (including math, statistics, etc.) and implementations (coding, tool, etc.).
 
-### Deep Learning
 
-* 深度學習透過類神經網路學習，透過組合特徵不斷堆疊成深層網路而能強化學習效果，強化圖片、語言等領域的發展。
 
-### Data Mining
+The following are topics introduced in the book.
 
-* 資料探勘一般是指從大量的資料中自動搜尋隱藏於其中的有著特殊關聯性的資訊的過程。
-
-### Statistics
-
-* 統計學可以說是觀察大眾結論的科學，在資料科學中佔據非常重要的地位，不僅在 machine learning 或 data mining 中被廣泛運用；而後，更有 statistical learning 等學門出現
-
-### Mathematics
-
-* 數學可以說是科學之母，幾乎應用於更種工程領域議題之上，資料科學中數學領域除了統計學外，更有工程數學 \(如 ODE\)、數值分析等許多對資料進行分析與研究等議題。
-
+* [Machine Learning](machine_learning/README.md) : Machine learning is the field that to design a series of analyzing algorithm to make machine learn itself. In general, machine learning algorithms automatically acquire regularity from data, and attempt to classify, cluster or predict the unknown data based on the regularity.
+* [Deep Learning](deep_learning/README.md) : Deep learning, also called reinforced machine learning or advanced neural network, is built on different neural network types and improves learning processes over several steps (levels) in developing images, versions, and speaks, etc fields.
+* [Data Mining](data_mining/README.md) : Data mining is the field that extracts the hidden features from different types of huge data.
+* [Statistics](statistics/README.md) : The statistics is the objective science to summarize the whole data. It plays an important role in data science, and is used not only in machine learning but also in data mining. Furthermore, statistics promotes lots of emerging sub-fields, e.g. statistical learning, etc.
+* [Mathematics](mathematics/README.md) : Mathematics is the foundation of the science and is almost used in several engineering fields. Lots of mathematics subfields are important in data science, e.g. statistics, engineering mathematics (ODE), numerical analysis, etc.
 
 

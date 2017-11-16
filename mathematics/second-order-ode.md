@@ -1,10 +1,8 @@
 # Second Order ODE
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-### Example.1 : $$\frac{d^{2}x}{dt^{2}} +５\frac{dx}{dt}-4x(t) = sin(10t)$$
----
 
+## Example.1 
 * solve 2nd order differential equation :　$$\frac{d^{2}x}{dt^{2}} +５\frac{dx}{dt}-4x(t) = sin(10t)$$, and initial x(0) = 0 and x'(0) = 0
 
 * Derivation
@@ -49,16 +47,16 @@ end
 
 ![](../images/second-order-ode.jpg)
 
-### Example.2 : $$(3x-1)\frac{d^{2}y}{dx^{2}}-(3x+2)\frac{dy}{dx}-(6x-8)y = 0$$
----
 
+
+## Example.2 
 * solve 2nd order differential equation : $$(3x-1)\frac{d^{2}y}{dx^{2}}-(3x+2)\frac{dy}{dx}-(6x-8)y = 0$$, and initial y(0) = 2, y'(0) = 3
 
 * Derivation
 
 assume $$y_{1} = y$$, $$y_{2} = y'$$
 
-=> $$y_{1}' = y'$$, $$y_{2}' = y''$$
+=> $$y_{1}' = y'​$$, $$y_{2}' = y''​$$
 
 => $$y_{1}' = y_{2}$$, and $$(3x-1)y_{2}' - (3x+2)y_{1}' - (6x - 8)y = 0$$
 

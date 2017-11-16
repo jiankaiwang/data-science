@@ -1,10 +1,8 @@
 # Spearman Rank Correlation
 
-<script type="text/javascript" src="../js/general.js"></script>
 
-###Calculate Correlation in R
----
 
+##Calculate Correlation in R
 ```R
 # use cor{stats}
 data1 <- rnorm(10, mean = 2, sd = 1)
@@ -14,8 +12,9 @@ data2 <- rnorm(10, mean = 4, sd = 2)
 spearmanRes <- cor(data1, data2, use = "everything", method = "spearman")
 ```
 
-###Test of pearson correlation in R
----
+
+
+##Test of pearson correlation in R
 
 ```R
 # use cor{stats}
