@@ -2,7 +2,7 @@
 
 
 
-Data Science is the emerging field to acquire knowledge from data. Its goal is to extract the valuable information from data, and to transform or to manufacture the data product. The book focuses on both fundemational science knowledge (including math, statistics, etc.) and implementations (coding, tool, etc.).
+Data Science is the emerging field to acquire knowledge from data. Its goal is to extract the valuable information from data, and to transform or to manufacture the data product. The book focuses on both fundamental science knowledge (including math, statistics, etc.) and implementations (coding, tool, etc.).
 
 
 
