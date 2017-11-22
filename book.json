@@ -1,5 +1,5 @@
 {
-    "plugins" : [ "autocover","versions","mathjax" ],  
+    "plugins" : [ "autocover","versions","katex" ],  
     "pluginsConfig": {
         "autocover": {
               "title": "Data Science",
@@ -19,9 +19,6 @@
         },
         "versions": {
             "type": "branches"
-        },
-        "mathjax":{
-            "forceSVG": true
         }
     }
 }
